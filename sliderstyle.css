@@ -242,25 +242,6 @@ a:hover{
 
 /* Responsive Design */
 
-@media screen and (max-width: 999px){
-    
-    header{
-        padding-left: 50px;
-    }
-
-    .list .item .content{
-        left: 50px;
-    }
-
-    .content .title, .content .name{
-        font-size: 70px;
-    }
-
-    .content .des{
-        font-size: 16px;
-    }
-
-}
 
 @media screen and (max-width: 690px){
     header nav a{

@@ -101,3 +101,40 @@
     text-align: justify;
   }
 }
+
+
+
+/* Container Styling */
+.section__pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  max-width: 400px; /* Adjust max size as needed */
+  margin: 0 auto; /* Centering */
+  position: relative;
+}
+
+/* Responsive Image */
+.about-pic {
+  width: 100%; /* Makes image responsive */
+  height: auto; /* Maintains aspect ratio */
+  max-width: 100%; /* Prevents overflow */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* Media Queries for Different Screen Sizes */
+@media (max-width: 768px) {
+  .section__pic-container {
+    max-width: 160px;
+}
+.about-pic {
+  max-width: 140px;
+}
+}
+
+@media (max-width: 480px) {
+  .section__pic-container {
+      max-width: 250px; /* Smaller image on mobile */
+  }
+}
